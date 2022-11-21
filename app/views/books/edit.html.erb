@@ -22,10 +22,10 @@
 <%= f.submit 'Update Book' %>
 
 
-<a>
-<%= link_to "Show", book_path(@book.id) %>
+
+<div><%= link_to "Show", book_path(@book.id) %></div>
 |
-<%= link_to "Back", book_index_path %>
-</a>
+<div><%= link_to "Back", books_path %></div>
+
 
 <% end %>
